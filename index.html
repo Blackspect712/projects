@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meridian Planning — Road & Site Planning for Residential Projects</title>
+  <meta name="description" content="Meridian Planning designs road layouts, access plans, and residential site plans that get approved the first time." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="brand">
+        <span class="mark">M</span>
+        Meridian Planning
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-primary btn-sm">Get a quote</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-canvas" data-roads3d aria-hidden="true">
+        <div class="scene-badge">
+          <span class="scene-dot"></span>
+          <span data-scene-label>Dirty street</span>
+          <span class="scene-track"><span data-scene-fill></span></span>
+        </div>
+      </div>
+      <div class="container hero-grid">
+        <div class="reveal">
+          <span class="eyebrow">Road &amp; site planning</span>
+          <h1>Thoughtful road layouts for homes that last.</h1>
+          <p class="lead">
+            We plan access roads, driveways, and residential sites — from the first sketch
+            to the stamped drawings your council and builder need.
+          </p>
+          <div class="hero-actions">
+            <a href="contact.html" class="btn btn-primary">Start your project</a>
+            <a href="services.html" class="btn btn-ghost">View services</a>
+          </div>
+          <div class="hero-meta">
+            <div><strong>120+</strong><span>Plans approved</span></div>
+            <div><strong>12 yrs</strong><span>Of experience</span></div>
+            <div><strong>2 wks</strong><span>Typical turnaround</span></div>
+          </div>
+        </div>
+
+        <div class="plan-card reveal">
+          <!-- Decorative site plan -->
+          <svg viewBox="0 0 480 360" role="img" aria-label="Illustration of a residential road and lot plan">
+            <rect x="0" y="0" width="480" height="360" fill="#ffffff" stroke="#e7e8ec"/>
+            <!-- grid -->
+            <g stroke="#eef0f2" stroke-width="1">
+              <line x1="60" y1="0" x2="60" y2="360"/><line x1="120" y1="0" x2="120" y2="360"/>
+              <line x1="180" y1="0" x2="180" y2="360"/><line x1="240" y1="0" x2="240" y2="360"/>
+              <line x1="300" y1="0" x2="300" y2="360"/><line x1="360" y1="0" x2="360" y2="360"/>
+              <line x1="420" y1="0" x2="420" y2="360"/>
+              <line x1="0" y1="60" x2="480" y2="60"/><line x1="0" y1="120" x2="480" y2="120"/>
+              <line x1="0" y1="180" x2="480" y2="180"/><line x1="0" y1="240" x2="480" y2="240"/>
+              <line x1="0" y1="300" x2="480" y2="300"/>
+            </g>
+            <!-- road -->
+            <path d="M-10 300 C 120 300, 150 220, 240 210 S 400 190, 490 120"
+                  fill="none" stroke="#16181d" stroke-width="26" stroke-linecap="round" opacity="0.9"/>
+            <path d="M-10 300 C 120 300, 150 220, 240 210 S 400 190, 490 120"
+                  fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="12 12"/>
+            <!-- lots -->
+            <g fill="#eaf3f0" stroke="#1f6f5c" stroke-width="1.5">
+              <rect x="40" y="40" width="110" height="90" rx="4"/>
+              <rect x="170" y="40" width="110" height="90" rx="4"/>
+              <rect x="300" y="30" width="130" height="70" rx="4"/>
+              <rect x="60" y="150" width="90" height="70" rx="4"/>
+              <rect x="330" y="230" width="110" height="90" rx="4"/>
+            </g>
+            <!-- houses -->
+            <g fill="#1f6f5c" opacity="0.85">
+              <rect x="65" y="62" width="60" height="45" rx="3"/>
+              <rect x="195" y="62" width="60" height="45" rx="3"/>
+              <rect x="330" y="45" width="70" height="40" rx="3"/>
+              <rect x="78" y="165" width="54" height="40" rx="3"/>
+              <rect x="355" y="252" width="60" height="45" rx="3"/>
+            </g>
+            <!-- dimension line -->
+            <g stroke="#7b8190" stroke-width="1">
+              <line x1="40" y1="145" x2="280" y2="145"/>
+              <line x1="40" y1="140" x2="40" y2="150"/>
+              <line x1="280" y1="140" x2="280" y2="150"/>
+            </g>
+            <text x="140" y="139" font-family="monospace" font-size="12" fill="#7b8190">48.0 m</text>
+            <circle cx="240" cy="210" r="6" fill="#1f6f5c"/>
+          </svg>
+          <div class="plan-caption">
+            <span>LOT 14 · ACCESS ROAD LAYOUT</span>
+            <span>REV. B</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section-soft" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">What we do</span>
+          <h2>Planning services, end to end</h2>
+          <p>Whether it's a single driveway or a full subdivision access plan, we handle the geometry, the standards, and the paperwork.</p>
+        </div>
+        <div class="grid grid-3">
+          <div class="card reveal">
+            <div class="icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 20 L10 4"/><path d="M20 20 L14 4"/><path d="M12 8v3"/><path d="M12 15v3"/></svg>
+            </div>
+            <h3>Road layout design</h3>
+            <p>Alignment, widths, gradients, and intersections designed to local standards and built for real traffic.</p>
+          </div>
+          <div class="card reveal">
+            <div class="icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11 L12 3 L21 11"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg>
+            </div>
+            <h3>Residential site plans</h3>
+            <p>House placement, setbacks, driveways, and drainage laid out so every square metre works hard.</p>
+          </div>
+          <div class="card reveal">
+            <div class="icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8"/><path d="M8 12h8"/><path d="M8 16h5"/></svg>
+            </div>
+            <h3>Approval drawings</h3>
+            <p>Council-ready drawing sets with the notes, legends, and details reviewers expect — submitted right.</p>
+          </div>
+          <div class="card reveal">
+            <div class="icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+            </div>
+            <h3>Feasibility studies</h3>
+            <p>Quick-turn assessments of what a parcel can realistically carry before you commit to buying it.</p>
+          </div>
+          <div class="card reveal">
+            <div class="icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            </div>
+            <h3>Subdivision planning</h3>
+            <p>Lot subdivisions, corner sight triangles, and cul-de-sac design mapped out from survey to stamp.</p>
+          </div>
+          <div class="card reveal">
+            <div class="icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <h3>Consultation &amp; review</h3>
+            <p>A second set of expert eyes on plans you already have, with clear, jargon-free recommendations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section>
+      <div class="container">
+        <div class="section-head center reveal">
+          <span class="eyebrow">How it works</span>
+          <h2>Four steps from idea to approval</h2>
+        </div>
+        <div class="steps">
+          <div class="step reveal">
+            <h3>Site visit</h3>
+            <p>We walk the land, review surveys, and understand your goals and constraints.</p>
+          </div>
+          <div class="step reveal">
+            <h3>Concept layout</h3>
+            <p>A first-draft plan showing roads, lots, and access — reviewed together and refined.</p>
+          </div>
+          <div class="step reveal">
+            <h3>Detailed drawings</h3>
+            <p>Precise dimensions, gradients, and standards compliance turned into a full drawing set.</p>
+          </div>
+          <div class="step reveal">
+            <h3>Submit &amp; approve</h3>
+            <p>We prepare submission documents and stay with you through reviewer comments to sign-off.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About teaser -->
+    <section class="section-soft">
+      <div class="container split">
+        <div class="reveal">
+          <span class="eyebrow">Who we are</span>
+          <h2>Small studio. Serious detail.</h2>
+          <p style="color: var(--ink-soft);">
+            Meridian Planning is a one-person practice built on a simple belief: good planning
+            should be easy to understand and hard to argue with. Every plan we draw is checked
+            against local standards twice — once when we draw it, and once before it leaves the studio.
+          </p>
+          <ul class="tick-list">
+            <li>Council-standard drawings, prepared in-house</li>
+            <li>Direct access to the person drawing your plan</li>
+            <li>Fixed quotes with no surprise hourly bills</li>
+            <li>Typical turnaround in two weeks or less</li>
+          </ul>
+          <div class="hero-actions">
+            <a href="about.html" class="btn btn-ghost">More about the studio</a>
+          </div>
+        </div>
+        <div class="panel reveal">
+          <div class="stats" style="grid-template-columns: repeat(2, 1fr);">
+            <div class="stat"><strong>120+</strong><span>Plans approved</span></div>
+            <div class="stat"><strong>98%</strong><span>First-pass approval</span></div>
+            <div class="stat"><strong>12</strong><span>Years in practice</span></div>
+            <div class="stat"><strong>40+</strong><span>Local councils worked with</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section>
+      <div class="container">
+        <div class="section-head center reveal">
+          <span class="eyebrow">Testimonials</span>
+          <h2>What clients say</h2>
+        </div>
+        <div class="grid grid-3">
+          <div class="quote reveal">
+            <blockquote>“Our access road plan went through council without a single comment. First time in twenty years of building that's happened.”</blockquote>
+            <div class="who">
+              <div class="avatar">JR</div>
+              <div><strong>James R.</strong><span>Homebuilder</span></div>
+            </div>
+          </div>
+          <div class="quote reveal">
+            <blockquote>“Clear drawings, clear pricing, and every question answered the same day. Exactly what you want in a planner.”</blockquote>
+            <div class="who">
+              <div class="avatar">SK</div>
+              <div><strong>Sara K.</strong><span>Landowner</span></div>
+            </div>
+          </div>
+          <div class="quote reveal">
+            <blockquote>“We were about to buy a plot that couldn't be accessed. The feasibility check saved us a very expensive mistake.”</blockquote>
+            <div class="who">
+              <div class="avatar">DT</div>
+              <div><strong>David T.</strong><span>Property developer</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section-soft">
+      <div class="container">
+        <div class="cta-band reveal">
+          <div>
+            <h2>Have a site in mind?</h2>
+            <p>Tell us where it is and what you're planning — we'll come back with a fixed quote within two business days.</p>
+          </div>
+          <a href="contact.html" class="btn btn-primary">Get a free quote</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <a href="index.html" class="brand"><span class="mark">M</span> Meridian Planning</a>
+          <p>Road layouts, site plans, and approval drawings for residential projects.</p>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html#roads">Road layout design</a></li>
+            <li><a href="services.html#sites">Site plans</a></li>
+            <li><a href="services.html#approvals">Approval drawings</a></li>
+            <li><a href="services.html#feasibility">Feasibility studies</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:hello@meridianplanning.example">hello@meridianplanning.example</a></li>
+            <li><a href="tel:+15550142">+1 (555) 014-2</a></li>
+            <li>Mon–Fri, 9am–5pm</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Meridian Planning. All rights reserved.</span>
+        <span>Placeholder content — replace with your own details.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.min.js"></script>
+  <script src="js/roads3d.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
